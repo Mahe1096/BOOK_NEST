@@ -89,20 +89,20 @@ Once the app is running, visit:
 
 ## Security Measures
 
-- *Helmet*: Secures HTTP headers  
-- *XSS-Clean*: Prevents cross-site scripting  
-- *Mongo-Sanitize*: Prevents NoSQL injection  
-- *Rate Limiting*: Controls brute-force attempts  
+- **Helmet:** Secures HTTP headers  
+- **XSS-Clean:** Prevents cross-site scripting  
+- **Mongo-Sanitize:** Prevents NoSQL injection  
+- **Rate Limiting:** Controls brute-force attempts  
 
 
 ## Tech Stack
 
-- *Backend*: Node.js, Express  
-- *Database*: MongoDB Atlas (Cloud)  
-- *Auth*: JWT  
-- *Validation*: Joi  
-- *Docs*: Swagger (OpenAPI 3.0)  
-- *Containerization*: Docker, Docker Compose  
+- **Backend:** Node.js, Express  
+- **Database:** MongoDB Atlas (Cloud)  
+- **Auth:** JWT  
+- **Validation:** Joi  
+- **Docs:** Swagger (OpenAPI 3.0)  
+- **Containerization:** Docker, Docker Compose  
 
 ## Author
 
