@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules
+npm-debug.log*
+
+# Logs
+logs
+*.log
+
+# Environment files (do not include in image)
+.env
+.env.local
+.env.*.local
+
+# Test files
+_tests_/
+*.test.js
+*.spec.js
+
+# Docker and system files
+Dockerfile
+.dockerignore
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  bookapi:
+    build: .
+    container_name: bookapi-container
+    ports:
+      - "${PORT}:${PORT}"
+    env_file:
+      - .env
+    volumes:
+      - .:/app
+      - /app/node_modules
+    restart: unless-stopped
