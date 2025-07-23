@@ -35,10 +35,11 @@ cd booknest-api
 
 ### 3. Create a .env file
 
-env
+```env
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/booknest?retryWrites=true&w=majority
 JWT_SECRET=your_jwt_secret
+```
 
 ### 4. Run the app locally
 
