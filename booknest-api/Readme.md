@@ -49,15 +49,15 @@ JWT_SECRET=your_jwt_secret
 
 ## Access
 
-- *API Base URL:* [http://localhost:5000](http://localhost:5000)  
-- *Swagger UI:* [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
+- **API Base URL:** [http://localhost:5000](http://localhost:5000)  
+- **Swagger UI:** [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
 
 
 ## Docker Setup
 
 - Build and start using Docker Compose:
 
-<pre>  docker-compose up --build  </pre>
+<pre><code> docker-compose up --build </code>  </pre>
 
 - Docker will use the Dockerfile to build the app.
 
