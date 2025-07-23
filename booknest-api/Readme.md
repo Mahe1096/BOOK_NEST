@@ -18,7 +18,67 @@ A secure, RESTful API for user authentication and book management built with **N
 
 ## Project Structure
 
-<pre> BOOK_NEST/ └── booknest-api/ ├── .dockerignore ├── .env ├── .eslintrc.js ├── .gitignore ├── .prettierrc ├── docker-compose.yml ├── Dockerfile ├── jest.config.js ├── logs🜜.8c689653ffdca412638bf778eec75d97d37db3d1-audit.json ├── logs🜜.b8155ae099578ec4a1bb73341197358b5a2e0953-audit.json ├── package-lock.json ├── package.json ├── Readme.md ├── server.js ├── structure.txt ├── logs/ │ ├── .8c689653ffdca412638bf778eec75d97d37db3d1-audit.json │ ├── .b8155ae099578ec4a1bb73341197358b5a2e0953-audit.json │ ├── app-error-2025-07-23.log │ ├── app-info-2025-07-23.log ├── node_modules/ │ └── .package-lock.json ├── src/ │ ├── app.js │ ├── config/ │ │ ├── db.js │ │ └── docs/ │ │ └── swagger.js │ ├── controllers/ │ │ ├── authController.js │ │ └── bookController.js │ ├── logs/ │ │ ├── .8c689653ffdca412638bf778eec75d97d37db3d1-audit.json │ │ ├── .b8155ae099578ec4a1bb73341197358b5a2e0953-audit.json │ │ ├── app-error-2025-07-23.log │ │ ├── app-info-2025-07-23.log │ ├── middlewares/ │ │ ├── auth.js │ │ ├── errorHandler.js │ │ └── validate.js │ ├── models/ │ │ ├── Book.js │ │ └── User.js │ ├── routes/ │ │ ├── authRoutes.js │ │ └── bookRoutes.js │ ├── services/ │ │ ├── bookService.js │ │ └── userService.js │ ├── utils/ │ │ ├── ApiError.js │ │ └── logger.js │ └── validators/ │ ├── auth.js │ └── book.js └── tests/ ├── auth.test.js ├── book.test.js └── jest.setup.js </pre>
+```
+BOOK_NEST/
+└── booknest-api/
+    ├── .dockerignore
+    ├── .env
+    ├── .eslintrc.js
+    ├── .gitignore
+    ├── .prettierrc
+    ├── docker-compose.yml
+    ├── Dockerfile
+    ├── jest.config.js
+    ├── logs/
+    │   ├── .8c689653ffdca412638bf778eec75d97d37db3d1-audit.json
+    │   ├── .b8155ae099578ec4a1bb73341197358b5a2e0953-audit.json
+    │   ├── app-error-2025-07-23.log
+    │   ├── app-info-2025-07-23.log
+    ├── package-lock.json
+    ├── package.json
+    ├── Readme.md
+    ├── server.js
+    ├── structure.txt
+    ├── node_modules/
+    │   └── .package-lock.json
+    ├── src/
+    │   ├── app.js
+    │   ├── config/
+    │   │   ├── db.js
+    │   │   └── docs/
+    │   │       └── swagger.js
+    │   ├── controllers/
+    │   │   ├── authController.js
+    │   │   └── bookController.js
+    │   ├── logs/
+    │   │   ├── .8c689653ffdca412638bf778eec75d97d37db3d1-audit.json
+    │   │   ├── .b8155ae099578ec4a1bb73341197358b5a2e0953-audit.json
+    │   │   ├── app-error-2025-07-23.log
+    │   │   ├── app-info-2025-07-23.log
+    │   ├── middlewares/
+    │   │   ├── auth.js
+    │   │   ├── errorHandler.js
+    │   │   └── validate.js
+    │   ├── models/
+    │   │   ├── Book.js
+    │   │   └── User.js
+    │   ├── routes/
+    │   │   ├── authRoutes.js
+    │   │   └── bookRoutes.js
+    │   ├── services/
+    │   │   ├── bookService.js
+    │   │   └── userService.js
+    │   ├── utils/
+    │   │   ├── ApiError.js
+    │   │   └── logger.js
+    │   └── validators/
+    │       ├── auth.js
+    │       └── book.js
+    └── tests/
+        ├── auth.test.js
+        ├── book.test.js
+        └── jest.setup.js
+```
 
 ## Setup Instructions
 
