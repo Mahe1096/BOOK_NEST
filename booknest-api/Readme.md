@@ -31,7 +31,7 @@ cd booknest-api
 
 ### 2. Install dependencies
 
-``` npm install ```
+<pre><code>npm install</code></pre>
 
 ### 3. Create a .env file
 
