@@ -2,20 +2,19 @@
 
 A secure, RESTful API for user authentication and book management built with **Node.js**, **Express**, and **MongoDB Atlas**. This project includes input validation, centralized error handling, rate limiting, Docker deployment, and interactive Swagger documentation.
 
----
 
 ## Features
 
-- ✅ User Registration & Login with JWT
-- ✅ Authenticated CRUD operations for Books
-- ✅ Input validation with Joi
-- ✅ Rate limiting on login/signup
-- ✅ MongoDB Atlas for cloud-based database
-- ✅ Swagger API documentation
-- ✅ Docker + Docker Compose setup
-- ✅ Helmet, XSS-clean, Mongo-sanitize for security
+- User Registration & Login with JWT
+- Authenticated CRUD operations for Books
+- Input validation with Joi
+- Rate limiting on login/signup
+- MongoDB Atlas for cloud-based database
+- Swagger API documentation
+- Docker + Docker Compose setup
+- Helmet, XSS-clean, Mongo-sanitize for security
 
----
+
 
 ## Project Structure
 
