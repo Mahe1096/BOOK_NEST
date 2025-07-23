@@ -24,9 +24,10 @@ A secure, RESTful API for user authentication and book management built with **N
 
 ### 1. Clone the repository
    
-bash
+```bash
 git clone https://github.com/Mahe1096/BOOK_NEST.git
 cd booknest-api
+```
 
 ### 2. Install dependencies
 
